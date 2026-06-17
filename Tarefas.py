@@ -11,5 +11,5 @@ def listar(self):
             return
         for i, t in enumerate(self.lista, 1):
             s = "✓" if t["concluida"] else "○"
-            p = t.get("prioridade", "normal")
+            p = t.get("prioridadee", "normal")
             print(f"{i}. [{s}] {t['nome']} ({p})")
