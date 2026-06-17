@@ -1,20 +1,5 @@
-class Tarefas:
-    def _init_(self):
-        self.lista = [ ]
-
-def adicionar(self, nome):
-  self. lista. append ({
-     "nome": nome,
-"concluida": False
-  })
-
-def listar(self):
-    for i, t in enumerate(self.lista, 1):
-        s = "V" if t["concluida"] else "o"
-        print(f"{i}. [{s}] {t['nome']}")
-
 def adicionar(self, nome, prioridade="normal"):
-     self.lista.append({
+        self.lista.append({
             "nome": nome,
             "concluida": False,
             "prioridade": prioridade
